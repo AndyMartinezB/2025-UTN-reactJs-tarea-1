@@ -10,7 +10,7 @@ la UTN.BA. Consiste crear una página HTML con estructura semántica correcta y 
 Para clonar el repositorio en tu terminal:
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git clone https://github.com/AndyMartinezB/2025-UTN-reactJs-tarea-1.git
 ```
 
 Para ver la página:
