@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTN - Curso de React JS</title>
+    <link rel="stylesheet" href="styles/estilo-tarea-1.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Tarea Nº1: Primera página web semántica y estilizada</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://andymartinezbologna.com/home" class="activo"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a href="https://andymartinezbologna.com/forum">Foro</a>
+          </li>
+          <li>
+            <a href="https://andymartinezbologna.com/Help">Ayuda</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>Cuidado de tus plantas: Crotón</h2>
+
+        <p>
+          El crotón (<em>Codiaeum variegatum</em>), es una planta de interior
+          común que se cultiva por su llamativo follaje . Es originario de Asia
+          tropical y la región del Pacífico occidental. Perteneciente a la
+          familia de las euforbiáceas (<em>Euphorbiaceae</em>), este arbusto o
+          árbol pequeño de hoja perenne presenta una amplia variedad de colores
+          y patrones de hojas, y se han desarrollado numerosos cultivares.
+        </p>
+        <img
+          src="images/628b0cbf677de.jpeg"
+          alt="Una planta crotón en maceta contra una pared de madera"
+          width="450"
+          height="300"
+        />
+        <p>
+          Es una planta <strong>perenne delicada</strong>. El crotón se
+          desarrolla mejor en suelos fértiles, bien drenados y húmedos. Necesita
+          luz brillante e indirecta cuando se cultiva en interiores. Puede
+          tolerar pleno sol si se mantiene <strong>húmedo</strong>. Los niveles
+          de luz más altos producen un color más vibrante en las hojas y un
+          hábito más compacto. El crotón tiene necesidades
+          <strong>moderadas de agua</strong> y debe regarse solo cuando se seque
+          la media pulgada a una pulgada superior del suelo. Las plantas
+          perderán hojas si están demasiado húmedas o demasiado secas durante
+          períodos prolongados. Como planta tropical, se desarrolla mejor con
+          humedad moderada a alta y temperaturas cálidas.
+        </p>
+
+        <h3>Tres consejos de cuidados básicos:</h3>
+        <ol>
+          <li>
+            <strong>Riego abundante</strong> cada 3-4 días en verano y semanal
+            en invierno. Importante un buen drenaje. La humedad ambiental tiene
+            que ser muy elevada, por lo que se recomienda vaporizar con
+            regularidad las hojas.
+          </li>
+          <li>
+            <strong>Luz garantizada</strong>. Evitar del todo la luz directa.
+            Aguanta poca luz pero conviene emplazarlo en una atmósfera clara. Si
+            no, sus hojas se caerán y se pondrán pálidas.
+          </li>
+          <li>
+            <strong>Temperatura ideal</strong>. Entre 16 y 21ºC. Ubica la planta
+            en un ambiente cálido y evita contrastes.
+          </li>
+        </ol>
+      </article>
+
+      <!-- id para consignar de usar selectores -->
+      <form id="form_suscripcion">
+        <h3>Para leer más artículos como este:</h3>
+        <p>Suscribite para recibir períodicamente nuestras publicaciones</p>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre_usuario" name="nombre" type="text" />
+
+        <label for="email">Email:</label>
+        <input
+          id="email_usuario"
+          type="email"
+          name="email"
+          placeholder="nombre@ejemplo.com"
+        />
+
+        <label for="frecuencia">Frecuencia:</label>
+        <select id="frecuencia_suscripcion" name="frecuencia">
+          <option>semanal</option>
+          <option>mensual</option>
+          <option>trimestral</option>
+        </select>
+        <button>Enviar</button>
+      </form>
+    </main>
+
+    <footer>
+      <small> Andrés Martínez Bologna. 2025.</small>
+    </footer>
+  </body>
+</html>

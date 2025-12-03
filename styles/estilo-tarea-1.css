@@ -1,0 +1,157 @@
+:root {
+  /* Por consigna */
+  --color-principal: #63682f; /* Verde oliva para Header y h2) */
+  --color-secundario: #d35400; /* Naranja ladrillo para Hover y Strong */
+  --fuente-base: "Helvetica", sans-serif;
+
+  /* Otras */
+  --color-fondo: #e0cd95; /* Beige para Fondo Body */
+  --color-texto-claro: #f4f5f0; /* Blanco hueso para texto Header y Links) */
+}
+strong {
+  color: var(--color-secundario);
+}
+
+body {
+  font-family: var(--fuente-base);
+  margin: 0;
+  background-color: var(--color-fondo);
+}
+
+header {
+  background-color: var(--color-principal);
+  color: var(--color-texto-claro);
+  padding: 20px;
+  /* text-align: center; */
+}
+header nav ul {
+  /* justify-content: center; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--color-texto-claro);
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  color: var(--color-secundario);
+}
+
+/* Selector de clase por consigna */
+.activo {
+  border-bottom: 2px solid var(--color-texto-claro);
+}
+
+article {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+  max-width: 100%; /* La consigna pedía 300px pero queda mejor con 100% de article */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+article h2 {
+  color: var(--color-principal);
+  font-size: 2rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+article h3 {
+  color: var(--color-principal);
+  font-size: 1.5rem;
+}
+article p,
+article li {
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+article ol li {
+  margin-bottom: 15px;
+}
+
+/* selector de id por consigna */
+#form_suscripcion {
+  background-color: white;
+  max-width: 600px; /* Un poco más angosto que el artículo para que se vea compacto */
+  margin: 40px auto; /* Centrado horizontalmente */
+  padding: 30px; /* Espacio interno */
+  border-radius: 15px;
+}
+#form_suscripcion h3 {
+  color: var(--color-principal);
+  margin-top: 0;
+}
+
+/* Las etiquetas (Nombre, Email...) */
+#form_suscripcion label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--color-secundario);
+}
+
+/* Los campos de texto y el desplegable */
+#form_suscripcion input,
+#form_suscripcion select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: var(--fuente-base);
+}
+
+#form_suscripcion input:focus,
+#form_suscripcion select:focus {
+  outline: none;
+  border-color: var(--color-secundario);
+  background-color: #fffdf5;
+}
+
+#form_suscripcion button {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--color-principal);
+  color: var(--color-texto-claro);
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#form_suscripcion button:hover {
+  background-color: var(--color-secundario);
+}
+
+footer {
+  background-color: var(--color-principal);
+  color: var(--color-texto-claro);
+  text-align: right;
+  padding: 20px;
+  margin-top: 40px;
+  width: auto;
+}
+
+footer small {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
