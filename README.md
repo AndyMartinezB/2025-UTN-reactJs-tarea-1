@@ -3,7 +3,7 @@
 ## Descripción del Proyecto
 
 Este proyecto corresponde a la primera entrega del Curso de Desarrollo en React JS de
-la UTN.BA Consiste crear una página HTML con estructura semántica correcta y estilos CSS, aplicando etiquetas, clases, selectores, variables y buenas prácticas.
+la UTN.BA. Consiste crear una página HTML con estructura semántica correcta y estilos CSS, aplicando etiquetas, clases, selectores, variables y buenas prácticas.
 
 ## Instrucciones
 
