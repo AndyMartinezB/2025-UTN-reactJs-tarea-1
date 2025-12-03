@@ -29,5 +29,9 @@ Para ver la página:
 ## Créditos
 
 **Autor:** Andrés Martínez Bologna\
-**Curso:** React JS - UTN.BA\
+
+**Curso:** [React JS - UTN.BA](https://sceu.frba.utn.edu.ar/e-learning/detalle/curso/35189/curso-de-desarrollo-en-react-js?id=999201563)
+
 **Año:** 2025
+
+[Fuente de la imagen](https://www.lavanguardia.com/economia/20251203/11326912/juan-echevarria-genio-figura.html)
