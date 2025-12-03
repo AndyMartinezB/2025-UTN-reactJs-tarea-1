@@ -21,7 +21,10 @@ Para ver la página:
 ## Capturas de Pantalla
 
 - Vista General:
+  ![Vista General](https://raw.githubusercontent.com/AndyMartinezB/2025-UTN-reactJs-tarea-1/main/consigna/Captura%20desde%202025-12-03%2014-02-08.png)
+
 - Formulario:
+  ![Formulario](https://raw.githubusercontent.com/AndyMartinezB/2025-UTN-reactJs-tarea-1/main/consigna/Captura%20desde%202025-12-03%2014-02-19.png)
 
 ## Créditos
 
